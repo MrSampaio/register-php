@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF7DC;
+    font-family: 'Inter', sans-serif;
+}
+
+*::selection{
+    color: rgb(255, 109, 134);
+    background-color: rgb(255, 202, 211);
+}
+
+.material-icons{
+    position: absolute;
+    margin-top: 1.133em;
+    margin-left: 0.3em;
+    display: block;
+}
+.eye{
+    margin-left: 90%;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+}
+
+.fa-solid{
+    color: #FFF7DC;
+    font-size: 20pt;
+}
+    
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    top: 0;
+}
+
+a:visited{
+    color: rgb(255, 132, 153);
+}
+
+.error{
+    color: #ff2400;
+    font-style: italic;
+    margin-top: 1%;
+}
+
+i{
+    color: rgb(255, 109, 134);
+}
+
+.boxLeft{
+    background-color: #212121;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    min-height: 100vh;
+}
+
+
+
+.boxLeft form{
+    -webkit-animation: fadeInLeft 1.2s both;
+    -o-animation: fadeInLeft 1.2s both;
+    -moz-animation: fadeInLeft 1.2s both;
+    animation: fadeInLeft 1.2s both;
+    background-color: #2b2a2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33vw;
+    height: 65vh;
+    border-radius: 5px;
+}
+
+
+.title{
+    -webkit-animation: fadeInLeft 1.2s both;
+    -o-animation: fadeInLeft 1.2s both;
+    -moz-animation: fadeInLeft 1.2s both;
+    animation: fadeInLeft 1.2s both;
+    width: 21vw;
+    text-align: right;
+}
+
+.sub{
+    font-size: 11pt;
+    margin-top: 8px;
+}
+
+.title h2{
+    color: rgb(255, 132, 153);
+    font-weight: 900;
+}
+
+
+.boxRight{
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+}
+
+.boxRight img{
+    -webkit-animation: fadeInTop 1s both;
+    -o-animation: fadeInTop 1s both;
+    -moz-animation: fadeInTop 1s both;
+    animation: fadeInTop 1s both;
+    width: 100%;
+    height: 100%;
+}
+
+.input-box{
+    position: relative;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+}
+
+.input-box input{
+    border-radius: 4px;
+    border: solid #4E4D4D 1px;
+    width: 22vw;
+    height: 2.3em;
+    background-color: #2F2F2F;
+    outline: none;
+    font-size: 11pt;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.input-box input::placeholder{
+    font-size: 10pt;
+}
+
+
+.input-box input:hover{
+    outline: solid rgb(255, 132, 153) 1px;
+}
+
+.input-box input:focus{
+    outline: solid rgb(255, 132, 153) 2px;
+}
+
+label{
+    margin-bottom: 0.2em;
+}
+
+.button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22vw;
+    margin-left: 1%;
+    flex-direction: column;
+}
+
+
+.button{
+    width: 100%;
+    height: 2.5em;
+    margin-top: 10%;
+    background-color:rgb(255, 132, 153);
+    border: solid rgb(255, 132, 153) 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #2b2a2a;
+    font-size: 12pt;
+    font-weight: bolder;
+}
+
+.button:hover{
+    border: solid rgb(255, 132, 153) 2px;
+    background-color: #2b2a2a;
+    color: rgb(255, 132, 153);
+    transition: ease-in-out 0.2s;
+    
+}
+
+.button-box a p{
+    font-size: 11pt;
+    margin-top: 7px;
+    color: #FFF7DC;
+}
+
+.button-box span{
+    color: rgb(255, 109, 134);
+    font-weight: 900;
+}
+
+
+@-webkit-keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+
+@-o-keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        -o-transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        -o-transform: translateX(0);
+    }
+}
+
+@-moz-keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        -moz-transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        -moz-transform: translateX(0);
+    }
+}
+
+@keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInTop{
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@-moz-keyframes fadeInTop{
+    0%{
+        opacity: 0;
+        -moz-transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        -moz-transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes fadeInTop{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-o-keyframes fadeInTop{
+    0%{
+        opacity: 0;
+        -o-transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        -o-transform: translateY(0);
+    }
+}
+
+
+
