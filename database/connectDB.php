@@ -1,7 +1,7 @@
 <?php
 // parâmetros para conexão com banco de dados
 $user = 'root';
-$dbpassword = '5972';
+$dbpassword = '';
 $database = 'cad_users';
 $host = 'localhost';
 
