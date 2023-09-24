@@ -56,7 +56,6 @@ if(isset($_POST['save-button'])){
 
     $signo = $mysqli->real_escape_string($_POST['signo']);
 
-
     if(strlen($name) <= 2){
         $errors['name'] = 'Insira um nome válido';
 
