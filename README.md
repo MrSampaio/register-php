@@ -12,6 +12,7 @@ Sistema de cadastro, login, ligação de banco de dados, validação e criptogra
 <br>
 <img src="https://github.com/MrSampaio/register-php/assets/118141328/ca1aa7d4-0b8a-4491-a0e0-0cb707bd88d1">
 <br>
+<br>
 <h2>Login</h2>
 <br>
 <img src="https://github.com/MrSampaio/register-php/assets/118141328/2dc5d45e-7798-4de9-af82-6504df795b79">
@@ -33,5 +34,12 @@ Sistema de cadastro, login, ligação de banco de dados, validação e criptogra
 <img src="https://github.com/MrSampaio/register-php/assets/118141328/083bbeb3-aa39-4ef0-b53d-f4256c762856">
 <p>Note que há campos que estão vazios e nulos, pois apenas os dados de cadastro principais são obrigatórios a serem mantidos.</p>
 <br>
+<img src="https://github.com/MrSampaio/register-php/assets/118141328/d877f5b6-7ada-4731-9838-8c603eae52a1">
+<p>Ao deslizar um pouco mais a página, o usuário terá acesso ao botão "sair", em que ao clicar irá sair de sua sessão PHP, tornando-a reestrita novamente e o redirecionando para a página de login.</p>
 <br>
+<br>
+<h2>Validações e mensagens de erro</h2>
+<p>Obviamente, todo esse fluxo de informações e atualizações de registros não pode ocorrer sem nenhuma verificação ou validação. Por isso, o sistema possui diversas validações em todas as três páginas, moderando o fluxo de dados e envio de registros maliciosos ao banco de dados. Algumas das validações presentes nas páginas, são: </p>
+<br>
+<li>Validações da página principal</li>
 
