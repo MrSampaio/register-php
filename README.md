@@ -62,7 +62,7 @@ Sistema de cadastro, login, ligação de banco de dados, validação e criptogra
 
 <p>O sistema foi feito utilizando HTML, CSS e JavaScript para o Front-end, enquanto o Back-end foi totalmente aplicado com PHP, desde a validação dos formulários até o gerenciamento de sessões e conexão com o banco de dados.</p>
 <br>
-<p>Projeto Full-Stack feito por mim, tendo em mente o aprendizado de ligação de databases com PHP e implementação de outras linguagens em um mesmo projeto</p>
+<p>Projeto Full-Stack feito por mim, tendo em mente o aprendizado de ligação de databases com PHP e implementação de diversas linguagens em um mesmo projeto.</p>
 <br>
 <p>Obrigado por ter lido até aqui! :)</p>
 
