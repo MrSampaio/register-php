@@ -42,4 +42,22 @@ Sistema de cadastro, login, ligação de banco de dados, validação e criptogra
 <p>Obviamente, todo esse fluxo de informações e atualizações de registros não pode ocorrer sem nenhuma verificação ou validação. Por isso, o sistema possui diversas validações em todas as três páginas, moderando o fluxo de dados e envio de registros maliciosos ao banco de dados. Algumas das validações presentes nas páginas, são: </p>
 <br>
 <li>Validações da página principal</li>
+<img src="https://github.com/MrSampaio/register-php/assets/118141328/d5d398bc-53b8-4bd9-9b4f-4b87cda1e6e7">
+<img src="https://github.com/MrSampaio/register-php/assets/118141328/ed699e1a-8c9c-4cd1-8161-1f123bcdeafb">
+<br>
+<li>Validações da página de login</li>
+<img src="https://github.com/MrSampaio/register-php/assets/118141328/0d0ebedc-0082-4f5c-9b89-d69660c117e8">
+<img src="https://github.com/MrSampaio/register-php/assets/118141328/0f4ced38-d022-4768-b25d-ee98e8f7db61">
+<br>
+<li>Validações da página home</li>
+<img src="https://github.com/MrSampaio/register-php/assets/118141328/90457ac2-80a7-4130-a94a-b9c3e04d9b69">
+<img src="https://github.com/MrSampaio/register-php/assets/118141328/0452ebe7-43a1-46ff-bf8b-4a37af037575">
+<br>
+<br>
+
+<p>O sistema foi feito utilizando HTML, CSS e JavaScript para o Front-end, enquanto o Back-end foi totalmente aplicado com PHP, desde a validação dos formulários até o gerenciamento de sessões e conexão com o banco de dados.</p>
+<br>
+<p>Projeto Full-Stack feito por mim, tendo em mente o aprendizado de ligação de databases com PHP e implementação de outras linguagens em um mesmo projeto</p>
+<br>
+<p>Obrigado por ter lido até aqui! :)</p>
 
