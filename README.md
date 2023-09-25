@@ -22,4 +22,16 @@ Sistema de cadastro, login, ligação de banco de dados, validação e criptogra
 <img src="https://github.com/MrSampaio/register-php/assets/118141328/26f98aeb-bdec-454f-ae60-d6d413c1ee21">
 <p>Assim, o usuário terá acesso à sua página restrita, em que pode livremente visualizar, modificar, apagar e atualizar seus dados. Além disso, também há outros campos a serem preenchidos com mais informações sobre o determinado usuário.</p>
 <br>
+<img src="https://github.com/MrSampaio/register-php/assets/118141328/e60ca975-a138-418f-a72c-c150d0895860">
+<p>A princípio, os campos estão desabilitados, porém, não há segredo para manipulá-los: basta deslizar um pouco mais a página e clicar no botão "alterar dados".</p>
+<br>
+<img src="https://github.com/MrSampaio/register-php/assets/118141328/b409604b-0d9c-467f-a9b3-92fbd3268d0f">
+<p>Com isso, os inputs serão liberados ao usuário e haverão dois botões, cujos quais enviam ou descartam as alterações ao serem clicados.</p>
+<br>
+<img src="https://github.com/MrSampaio/register-php/assets/118141328/c93c4117-efed-498c-82f1-e22a28e2c968">
+<p>Preenchendo alguns campos como exemplo, impus dados fictícios a serem cadastrados e modificados. Com isso, o banco de dados atualizado terá os seguintes registros em minha sessão: </p>
+<img src="https://github.com/MrSampaio/register-php/assets/118141328/083bbeb3-aa39-4ef0-b53d-f4256c762856">
+<p>Note que há campos que estão vazios e nulos, pois apenas os dados de cadastro principais são obrigatórios a serem mantidos.</p>
+<br>
+<br>
 
