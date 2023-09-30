@@ -64,8 +64,8 @@ if(isset($_POST['save-button'])){
 
     } if(strlen($email) <= 12){
         $errors['email'] = 'Insira um email válido';
-    }
-    if($pswdConfirm != $password){
+        
+    } if($pswdConfirm != $password){
         $errors['password-confirm'] = 'As senhas não coincidem';
 
     } if(preg_match('/(\d)\1{10}/', $phone)) { // verifica se todos os dígitos são iguais
@@ -73,8 +73,8 @@ if(isset($_POST['save-button'])){
 
     } if(!cpfValidation($cpf)){
         $errors['cpf'] = 'Insira um CPF válido';
-    }
-    if($age >= 1 && $age <= 5 || $age >= 100){
+        
+    } if($age >= 1 && $age <= 5 || $age >= 100){
         $errors['age'] = 'Insira uma idade válida';
 
     } else{
