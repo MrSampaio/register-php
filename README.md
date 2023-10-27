@@ -59,7 +59,6 @@ Sistema de cadastro, login, ligação de banco de dados, validação e criptogra
 <img src="https://github.com/MrSampaio/register-php/assets/118141328/0452ebe7-43a1-46ff-bf8b-4a37af037575">
 <br>
 <br>
-
 <p>O sistema foi feito utilizando HTML, CSS e JavaScript para o Front-end, enquanto o Back-end foi totalmente aplicado com PHP, desde a validação dos formulários até o gerenciamento de sessões e conexão com o banco de dados.</p>
 <br>
 <p>Projeto Full-Stack feito por mim, tendo em mente o aprendizado de ligação de databases com PHP e implementação de diversas linguagens em um mesmo projeto.</p>
