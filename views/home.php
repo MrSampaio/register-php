@@ -3,6 +3,7 @@
 include('../database/connectDB.php');
 include('../scripts/cpfValidation.php');
 
+
 // iniciando nova sessão
 session_start();
 
