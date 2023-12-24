@@ -56,7 +56,6 @@ if(isset($_POST['submit'])){
                 header("Location: home.php");
 
             }
-           
         }
     }
 }
