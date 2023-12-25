@@ -1,11 +1,12 @@
 <?php
+// iniciando nova sessão
+session_start();
+
 // importanto conexão do banco de dados e validação de cpf
 include('../database/connectDB.php');
 include('../scripts/cpfValidation.php');
 
 
-// iniciando nova sessão
-session_start();
 
 // verificação de página reestrita
 if(!isset($_SESSION['logged'])){
